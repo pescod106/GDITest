@@ -1,16 +1,25 @@
-﻿生成启动时间为 3/29/2016 9:41:33 AM。
-     1>项目“D:\Files\code\Windows程序设计\GDItest1\GDItest1\GDItest1.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 4/4/2016 9:34:19 AM。
+     1>项目“D:\Files\code\Windows\GDItest1\GDItest1\GDItest1.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\Program\VS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\GDItest1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GDItest1.cpp
          GDItest1.cpp
-     1>d:\files\code\windows程序设计\gditest1\gditest1\gditest1.cpp(175): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\files\code\windows\gditest1\gditest1\gditest1.cpp(452): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\files\code\windows\gditest1\gditest1\gditest1.cpp(439) : 忽略“i”的定义
+                 d:\files\code\windows\gditest1\gditest1\gditest1.cpp(296) : 使用“i”的定义
+     1>d:\files\code\windows\gditest1\gditest1\gditest1.cpp(454): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\files\code\windows\gditest1\gditest1\gditest1.cpp(439) : 忽略“i”的定义
+                 d:\files\code\windows\gditest1\gditest1\gditest1.cpp(296) : 使用“i”的定义
+     1>d:\files\code\windows\gditest1\gditest1\gditest1.cpp(454): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\files\code\windows\gditest1\gditest1\gditest1.cpp(297): warning C4101: “rt”: 未引用的局部变量
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\GDItest1.res" GDItest1.rc 
        Link:
-         D:\Program\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Files\code\Windows程序设计\GDItest1\Debug\GDItest1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Files\code\Windows程序设计\GDItest1\Debug\GDItest1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Files\code\Windows程序设计\GDItest1\Debug\GDItest1.lib" /MACHINE:X86 Debug\GDItest1.res
+         D:\Program\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Files\code\Windows\GDItest1\Debug\GDItest1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Files\code\Windows\GDItest1\Debug\GDItest1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Files\code\Windows\GDItest1\Debug\GDItest1.lib" /MACHINE:X86 Debug\GDItest1.res
          Debug\GDItest1.obj
          Debug\stdafx.obj
-         GDItest1.vcxproj -> D:\Files\code\Windows程序设计\GDItest1\Debug\GDItest1.exe
-     1>已完成生成项目“D:\Files\code\Windows程序设计\GDItest1\GDItest1\GDItest1.vcxproj”(Build 个目标)的操作。
+         GDItest1.vcxproj -> D:\Files\code\Windows\GDItest1\Debug\GDItest1.exe
+     1>已完成生成项目“D:\Files\code\Windows\GDItest1\GDItest1\GDItest1.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.98
+已用时间 00:00:01.11
